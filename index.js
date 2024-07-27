@@ -2,15 +2,13 @@ function rollDice() {
 
     var randomNumber1 = Math.floor(Math.random() * 6) + 1;  // 1-6
 
-    var randomDiceImage = "dice" + randomNumber1 + ".png";   // dice1.png - dice6.png
+    var randomDiceImage1 = "dice" + randomNumber1 + ".png";   // dice1.png - dice6.png
 
-    var randomImageSource = "images/" + randomDiceImage;
-
-    var Image1 = document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
+    var Image1 = document.querySelectorAll("img")[0].setAttribute("src", randomDiceImage1);
 
     var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-    var randomeDiceImage2 = "images/" + "dice" + randomNumber2 + ".png"; 
+    var randomeDiceImage2 = "dice" + randomNumber2 + ".png"; 
 
     var Image2 = document.querySelectorAll("img")[1].setAttribute("src", randomeDiceImage2);
 
